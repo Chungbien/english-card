@@ -1,9 +1,187 @@
+$fontSize: 1rem;
+$fontWeight: 500;
+$colorDefault: #208ef0;
+$colorBlack: #000000;
+$colorWhite: #ffffff;
+$bglinear: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+
+@mixin boderRadius($value: 5px, $exptionRadius: ()) {
+  border-radius: $value;
+  @each $var in $exptionRadius {
+    border-#{$var}-radius: 0;
+  }
+}
+@mixin hoverScale($valueScale: 1.2, $transition: 0.25) {
+  transition: 0.5s;
+  &:hover {
+    transform: scale($valueScale);
+    transition: $transition;
+  }
+}
+@mixin hoverReverColor($default: white, $colorChange: black) {
+  &:hover {
+    color: $default;
+    border: 1px solid $default;
+    background: none;
+    background-color: $colorChange;
+  }
+}
+
+@mixin dFlex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin spaceSection($padding: 1rem, $margin: 1rem) {
+  padding: $padding 0;
+  margin: 0 $margin;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
 body {
+  background: $bglinear;
+  @include dFlex();
+  min-height: 100vh;
   padding: 0;
   margin: 0;
-  font: {
-      size: 1rem;
-      family: 'Montserrat', sans-serif;
-  };
-  color: #FF9442;
+  font-family: "Montserrat", sans-serif;
+  background: {
+    image: url(https://pickywallpapers.com/img/2018/2/firewatch-bird-computer-wallpaper-411-418-hd-wallpapers.jpg);
+    repeat: no-repeat;
+    size: cover;
+  }
+}
+.card {
+  @include boderRadius(10px);
+  width: calc(100vw / 3);
+  height: 80vh;
+  box-shadow: 0px 0px 15px 0px $colorBlack;
+  background: {
+    color: white;
+  }
+  &__img img {
+    @include boderRadius(10px, (bottom-left, bottom-right));
+    width: 100%;
+    height: auto;
+  }
+  &__content,
+  &__title,
+  &-subtitle,
+  &__form {
+    @include spaceSection();
+  }
+  &__title {
+    border-bottom: 1px solid black;
+    text-align: center;
+    font: {
+      weight: bold;
+      size: 2rem;
+    }
+  }
+  &__title.title-select{
+    @include spaceSection(0rem, 1rem);
+    font: {
+      weight: 100;
+      size: 2rem;
+    }
+  }
+  &-subtitle {
+    @include dFlex();
+    justify-content: space-around;
+    flex-wrap: wrap;
+    &__item {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 40%;
+      font-size: 1.5rem;
+    }
+    &__item .item {
+      &__icon {
+        margin-right: 0.5rem;
+        color: $colorDefault;
+      }
+    }
+  }
+  &__content {
+    @include spaceSection(0.5rem, 1rem);
+    @include dFlex();
+    justify-content: space-between;
+    flex-wrap: wrap;
+    & .content__item {
+      @include hoverReverColor($colorWhite, $colorDefault);
+      color: $colorDefault;
+      margin: 0.5rem;
+      border: 1px solid $colorDefault;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  &__form {
+    @include boderRadius(0px);
+    font-size: 16px;
+    input {
+      @include boderRadius(5px);
+      padding: 0 1rem;
+      margin: 0;
+      border: 1px solid $colorBlack;
+      height: 3.5rem;
+      font-size: 1rem;
+      font-family: "Montserrat", sans-serif;
+      width: 100%;
+      transition: 0.5s;
+      &:focus {
+        border: 1px solid $colorDefault;
+        outline-color: $colorDefault;
+        transition: 0.25s;
+        transform: scaleY(1.2);
+        box-shadow: 0px 0px 10px 0px $colorDefault;
+      }
+    }
+  }
+  &-action {
+    @include dFlex();
+    @include spaceSection();
+    justify-content: space-between;
+    &__arrow {
+      font-size: 2rem;
+      padding: 0.5rem;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    &__previous {
+      @include hoverScale();
+      @include hoverReverColor($colorWhite, #fe6b8b);
+      border: 1px solid #fe6b8b;
+      color: #fe6b8b;
+    }
+    &__next {
+      @include hoverScale();
+      @include hoverReverColor($colorWhite, #ff8e53);
+      border: 1px solid #ff8e53;
+      color: #ff8e53; 
+    }
+    &__submit {
+      @include hoverReverColor(#fe6b8b, $colorWhite);
+      cursor: pointer;
+      padding: 0.25rem;
+      width: 50%;
+      text-align: center;
+      font-size: 2rem;
+      color: $colorWhite;
+      border-radius: 10px;
+      background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+    }
+    &.card-action__select {
+      @include spaceSection(0rem, 1rem);
+      justify-content: center;
+    }
+  }
 }
