@@ -1,0 +1,160 @@
+{
+  "units": [
+    {
+      "id": 1,
+      "name": "Language learing",
+      "words": [
+        {
+          "id": 1,
+          "text": "skill",
+          "phonetic": "skɪl",
+          "meaning": "Kĩ năng",
+          "sentence": "Practive is vital to learning a skill",
+          "translate": "Việc rèn luyện là cần thiết để học được 1 kĩ năng"
+        },
+        {
+          "id": 2,
+          "text": "follow",
+          "phonetic": "ˈfɑːləʊ",
+          "meaning": "Theo đuổi",
+          "sentence": "I would follow you anywhere",
+          "translate": "Anh sẽ theo đuổi em dù ở đâu đi chăng nữa"
+        },
+        {
+          "id": 3,
+          "text": "Culture",
+          "phonetic": "ˈkʌltʃər",
+          "meaning": "Văn hóa",
+          "sentence": "In our culture, the Lunar New Year is very important",
+          "translate": "Trong văn hóa của chúng tôi, Tết là điều cực kì quan"
+        },
+        {
+          "id": 4,
+          "text": "Mathematics",
+          "phonetic": "ˌmæθəˈmætɪks",
+          "meaning": "Toán học",
+          "sentence": "Mathematics was my best subject in school.",
+          "translate": "Toán từng là môn tôi giỏi nhất khi ở trường."
+        },
+        {
+          "id": 5,
+          "text": "engineering",
+          "phonetic": "ˌendʒɪˈnɪrɪŋ",
+          "meaning": "Ngành kĩ sư",
+          "sentence": "People in engineering typically have to be good at maths.",
+          "translate": "Mấy ông kĩ sư là điển cmnl hình về việc học giỏi toán"
+        },
+        {
+          "id": 6,
+          "text": "Subject",
+          "phonetic": "ˈsʌbdʒɪkt",
+          "meaning": "Môn học",
+          "sentence": "What's your favourite subject at school?",
+          "translate": "Môn học màu thích la gì ý nhỉ?"
+        },
+        {
+          "id": 7,
+          "text": "Science",
+          "phonetic": "ˈsaɪəns",
+          "meaning": "Khoa học",
+          "sentence": "Science is very useful in daily life.",
+          "translate": "Khoa học rất có ích trong cuộc sống hàng ngày."
+        },
+        {
+          "id": 8,
+          "text": "Popular",
+          "phonetic": "ˈpɑːpjələr",
+          "meaning": "Quan trọng - Thịnh hành",
+          "sentence": "Football is a very popular sport in VietNam.",
+          "translate": "Bóng đá rất quan trọng ở Việt Nam."
+        },
+        {
+          "id": 9,
+          "text": "Confident",
+          "phonetic": "ˈkɑːnfɪdənt",
+          "meaning": "Tự tin",
+          "sentence": "Her English isn't good, but she is confident.",
+          "translate": "KO giỏi đâu nhưng gỡ lại cái tự tin."
+        },
+        {
+          "id": 10,
+          "text": "Improve",
+          "phonetic": "ɪmˈpruːv",
+          "meaning": "Cải thiện",
+          "sentence": "Watching TV series helped me impove my vocabulary.",
+          "translate": "Xem series TV giúp t nâng vốn từ vựng."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "School Life",
+      "words": []
+    },
+    {
+      "id": 3,
+      "name": "Personal Information",
+      "words": []
+    },
+    {
+      "id": 4,
+      "name": "Job & Application 1",
+      "words": []
+    },
+    {
+      "id": 5,
+      "name": "Job & Application 2",
+      "words": []
+    },
+    {
+      "id": 6,
+      "name": "Money & Spending",
+      "words": []
+    },
+    {
+      "id": 7,
+      "name": "In The City 1",
+      "words": []
+    },
+    {
+      "id": 8,
+      "name": "In The City 2",
+      "words": []
+    },
+    {
+      "id": 9,
+      "name": "House & Neighbourhood 1",
+      "words": []
+    },
+    {
+      "id": 10,
+      "name": "House & Neighbourhood 2",
+      "words": []
+    },
+    {
+      "id": 11,
+      "name": "Travelling & Tourist Activities 1",
+      "words": []
+    },
+    {
+      "id": 12,
+      "name": "Travelling & Tourist Activities 2",
+      "words": []
+    },
+    {
+      "id": 13,
+      "name": "Holiday & Culture 1",
+      "words": []
+    },
+    {
+      "id": 14,
+      "name": "Holiday & Culture 2",
+      "words": []
+    },
+    {
+      "id": 15,
+      "name": "Weather & Season",
+      "words": []
+    }
+  ]
+}
