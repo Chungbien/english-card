@@ -1,30 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import rootReducer from './services/redux';
+import { createStore } from 'redux';
+import App from './containers/app'
 
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const store = createStore(rootReducer);
 
 ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>
-, document.getElementById('root'));
+  , document.getElementById('root'));

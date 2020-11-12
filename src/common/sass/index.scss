@@ -111,6 +111,8 @@ body {
     @include dFlex();
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 18.5rem;
+    overflow: hidden;
     & .content__item {
       @include hoverReverColor($colorWhite, $colorDefault);
       color: $colorDefault;
