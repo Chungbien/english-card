@@ -9,7 +9,7 @@ import { ToastsContainer, ToastsStore } from "react-toasts";
 
 const { Option } = Select;
 
-function App() {
+export default function FormAddWord() {
   const url = "http://localhost:1325";
   const quotes = [
     {
@@ -203,10 +203,3 @@ function App() {
     </div>
   );
 }
-
-ReactDOM.render(
-  // <Provider store={store}>
-  <App />,
-  // </Provider>
-  document.getElementById("root")
-);
