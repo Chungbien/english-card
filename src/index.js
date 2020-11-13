@@ -3,12 +3,23 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import rootReducer from './services/redux';
 import { createStore } from 'redux';
-import App from './containers/app'
+import App from './containers/app';
+import AddWord from './containers/add-word';
+import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 
 const store = createStore(rootReducer);
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <Router>
+      <Switch>
+        <Route path={`/`}
+          exact={true}
+          component={App} />
+        <Route path={`/add`}
+          exact={true}
+          component={AddWord} />
+      </Switch>
+    </Router>
   </Provider>
   , document.getElementById('root'));

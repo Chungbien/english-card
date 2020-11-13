@@ -7,8 +7,8 @@ import * as actions from '../services/redux/action';
 
 function App() {
   return (
-    <div class="card">
-    <div class="card__img">
+    <div className="card">
+    <div className="card__img">
       <img
         src="https://image.freepik.com/free-vector/landscape-wallpaper-flat-design_74890-38.jpg"
         alt="image-conver"
@@ -16,13 +16,13 @@ function App() {
     </div>
     {/* <WordConent /> */}
     <SelectUnit />
-    {/* <div class="card-action card-action__select"> */}
-    <div class="card-action card-action__select">
+    {/* <div className="card-action card-action__select"> */}
+    <div className="card-action">
       <ion-icon
         class="card-action__previous card-action__arrow"
         name="arrow-back-outline"
       ></ion-icon>
-      <div class="card-action__submit">
+      <div className="card-action__submit">
         Check
       </div>
       <ion-icon

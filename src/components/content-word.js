@@ -4,26 +4,26 @@ import PropTypes from 'prop-types'
 function WordConent(props) {
   return (
     <>
-      <div class="card__title word">Lorem ipsum dolor sit</div>
-      <div class="card-subtitle word-detail">
-        <div class="card-subtitle__item word-detail__phonetic">
-          <div class="item__icon">
+      <div className="card__title word">Lorem ipsum dolor sit</div>
+      <div className="card-subtitle word-detail">
+        <div className="card-subtitle__item word-detail__phonetic">
+          <div className="item__icon">
             <ion-icon name="mic-outline"></ion-icon>
           </div>
-          <div class="item__word">/əˈpiːlɪŋ/</div>
+          <div className="item__word">/əˈpiːlɪŋ/</div>
         </div>
-        <div class="card-subtitle__item word-detail__meaning">
-          <div class="item__icon">
+        <div className="card-subtitle__item word-detail__meaning">
+          <div className="item__icon">
             <ion-icon name="text-outline"></ion-icon>
           </div>
-          <div class="item__word">Thu hut</div>
+          <div className="item__word">Thu hut</div>
         </div>
       </div>
-      <div class="card__content">
+      <div className="card__content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore
     </div>
-      <div class="card__form">
+      <div className="card__form">
         <input type="text" name="" id="" />
       </div>
     </>

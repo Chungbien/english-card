@@ -5,7 +5,7 @@ module.exports = {
   entry:  ['./src/index.js', './src/common/sass/index.scss'],
   output: {
     filename: 'js/index.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
   module: {
     rules: [{
