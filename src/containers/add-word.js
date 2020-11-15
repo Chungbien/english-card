@@ -71,6 +71,12 @@ export default function FormAddWord() {
         return;
       }
     });
+    if (unitSelect.words.length === 30) {
+      ToastsStore.error(
+        "I haved 30 words! F*cking enough! Change your unit or edit db.json!"
+      );
+      return;
+    }
     if (!isComplete) {
       ToastsStore.error(
         "Screen has 5 fields! You must have filled out all of them!"
@@ -112,7 +118,6 @@ export default function FormAddWord() {
             sentence: null,
             translate: null,
           });
-          Object.keys(word).map((k) => (document.getElementById(k).value = ""));
         })
         .catch(function (error) {
           console.log(error);
@@ -158,6 +163,7 @@ export default function FormAddWord() {
           id="text"
           placeholder="New word - Từ mới"
           onChange={(e) => handleChange(e)}
+          value={word.text}
         />
         <br />
         <Input
@@ -165,6 +171,7 @@ export default function FormAddWord() {
           id="phonetic"
           placeholder="Phonetic - Phiên âm"
           onChange={(e) => handleChange(e)}
+          value={word.phonetic}
         />
         <br />
         <Input
@@ -172,6 +179,7 @@ export default function FormAddWord() {
           id="meaning"
           placeholder="Meaning of word - Ý nghĩa"
           onChange={(e) => handleChange(e)}
+          value={word.meaning}
         />
         <br />
         <Input
@@ -179,6 +187,7 @@ export default function FormAddWord() {
           id="sentence"
           placeholder="Sentence - Câu văn"
           onChange={(e) => handleChange(e)}
+          value={word.sentence}
         />
         <br />
         <Input
@@ -186,6 +195,7 @@ export default function FormAddWord() {
           id="translate"
           placeholder="Translate - Dịch câu"
           onChange={(e) => handleChange(e)}
+          value={word.translate}
         />
         <br />
       </div>

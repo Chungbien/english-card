@@ -83,13 +83,414 @@
           "meaning": "Cải thiện",
           "sentence": "Watching TV series helped me impove my vocabulary.",
           "translate": "Xem series TV giúp t nâng vốn từ vựng."
+        },
+        {
+          "id": 11,
+          "text": "Progress",
+          "phonetic": "ˈprɑːɡres",
+          "meaning": "Sự tiến bộ ",
+          "sentence": "Her progress is thansk to small amounts of daily study",
+          "translate": "Sự tiến bộ của cô  bé là nhờ 1 mỗi ngày học 1 ít."
+        },
+        {
+          "id": 12,
+          "text": "Communicate",
+          "phonetic": "kəˈmjuːnɪkeɪt",
+          "meaning": "Giao tiếp - V",
+          "sentence": "The purpose of a language is to help people communicate.",
+          "translate": "Mục đích của ngôn ngữ là giúp con người có thể giao tiếp."
+        },
+        {
+          "id": 13,
+          "text": "Vocabulary",
+          "phonetic": "vəˈkæbjəleri",
+          "meaning": "Từ vựng",
+          "sentence": "That kid has got a very rich vocabulary.",
+          "translate": "Đứa nhóc kia có vốn từ vựng rất phong phú."
+        },
+        {
+          "id": 14,
+          "text": "Speaker",
+          "phonetic": "ˈspiːkər",
+          "meaning": "Người nói",
+          "sentence": "Americans and Autralians are typically English speakers",
+          "translate": "Người Mẽo và người Úc là những người nói tiếng Anh."
+        },
+        {
+          "id": 15,
+          "text": "Certificate",
+          "phonetic": "sərˈtɪfɪkət",
+          "meaning": "Chứng chỉ",
+          "sentence": "Do u have a teaching certificate?",
+          "translate": "Bạn có chứng chỉ dạy ko?"
+        },
+        {
+          "id": 16,
+          "text": "Course",
+          "phonetic": "kɔːrs",
+          "meaning": "Khóa học",
+          "sentence": "This course will cover basic speaking skills.",
+          "translate": "Khóa học này sẽ bao gồm cả kĩ năng nói cơ bản."
+        },
+        {
+          "id": 17,
+          "text": "Original",
+          "phonetic": "əˈrɪdʒənl",
+          "meaning": "Nguyên bản",
+          "sentence": "The original language of \"The little Prince\" is French",
+          "translate": "Nguyên tác của truyện \"Cô công chúa bé nhỏ\" là tiếng Pháp"
+        },
+        {
+          "id": 18,
+          "text": "Visitor",
+          "phonetic": "ˈvɪzɪtər",
+          "meaning": "Khách tham quan",
+          "sentence": "The museum welcome 1000 visitors in January.",
+          "translate": "Viện bảo tàng chào mừng 1000 khách thăm quan trong tháng 1."
+        },
+        {
+          "id": 19,
+          "text": "Idea",
+          "phonetic": "aɪˈdiːə",
+          "meaning": "Ý tưởng",
+          "sentence": "I have an idea: let's go see a movie!",
+          "translate": "Tao có ý nay: Đi xem phim đi"
+        },
+        {
+          "id": 20,
+          "text": "Conversation",
+          "phonetic": "ˌkɑːnvərˈseɪʃn",
+          "meaning": "Cuộc nói chuyện.",
+          "sentence": "I have a conversation with Einstein in my dream.",
+          "translate": "T có cuộc hội đàm nho nhỏ với Einstein"
+        },
+        {
+          "id": 21,
+          "text": "Topic",
+          "phonetic": "ˈtɑːpɪk",
+          "meaning": "Chủ đề",
+          "sentence": "What is the topic of today's lesson?",
+          "translate": "Chủ đề của bài học hôm nay là??????????"
+        },
+        {
+          "id": 22,
+          "text": "Difficulty",
+          "phonetic": "ˈdɪfɪkəlti",
+          "meaning": "sự khó khăn - N ",
+          "sentence": "Some students have diffculty with pronunciation.",
+          "translate": "1 vài sv thì gặp khó khăn trong cách phát âm!"
+        },
+        {
+          "id": 23,
+          "text": "Beginner",
+          "phonetic": "bɪˈɡɪnər",
+          "meaning": "Người mới bắt đầu",
+          "sentence": "My son is beginner in karate",
+          "translate": "Con trai tôi là 1 newbie trong môn karate"
+        },
+        {
+          "id": 24,
+          "text": "Scared",
+          "phonetic": "skerd",
+          "meaning": "Sợ hãi",
+          "sentence": "You shouldn''t be scared of spiders.",
+          "translate": "Cậu không nên sợ nhện!"
+        },
+        {
+          "id": 25,
+          "text": "Follow one's dream ",
+          "phonetic": "Follow his dream",
+          "meaning": "Theo đuổi giấc mơ",
+          "sentence": "Follow my dream",
+          "translate": "Theo đuổi ước mơ của t!"
+        },
+        {
+          "id": 26,
+          "text": "Learn a new language",
+          "phonetic": "**",
+          "meaning": "Học 1 ngôn ngữ mới",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 27,
+          "text": "Express one's idea",
+          "phonetic": "Giải thích được ý tưởng",
+          "meaning": "Giải thích được ý tưởng",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 28,
+          "text": "Learn a new thing",
+          "phonetic": "Học 1 điều gì mới",
+          "meaning": "Học 1 điều gì mới",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 29,
+          "text": "take an English course",
+          "phonetic": "Kiếm 1 khóa học TA",
+          "meaning": "Kiếm 1 khóa học TA",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 30,
+          "text": "Make friends with someone",
+          "phonetic": "Làm bạn với ai đó",
+          "meaning": "Làm bạn với ai đó",
+          "sentence": "**",
+          "translate": "**"
         }
       ]
     },
     {
       "id": 2,
       "name": "School Life",
-      "words": []
+      "words": [
+        {
+          "id": 1,
+          "text": "start unitversity",
+          "phonetic": "bắt đầu học ĐH",
+          "meaning": "bắt đầu học ĐH",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 2,
+          "text": "take an exam",
+          "phonetic": "làm bài kiểm tra",
+          "meaning": "Làm bài kiểm tra",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 3,
+          "text": "pass an exam",
+          "phonetic": "Qua bài thi",
+          "meaning": "Qua bài thi",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 4,
+          "text": "Finish university",
+          "phonetic": "Hoàn thành việc học ĐH",
+          "meaning": "Học xong ĐH",
+          "sentence": "** ",
+          "translate": "**"
+        },
+        {
+          "id": 5,
+          "text": "Cram for ",
+          "phonetic": "Học gạo",
+          "meaning": "Kiểu học nhồi nhét với mục đích pass an exam",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 6,
+          "text": "pass with flying colours",
+          "phonetic": "Đạt điểm cao trong kì thi",
+          "meaning": "Đạt điểm cao trong kì thi",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 7,
+          "text": "Kindergarten",
+          "phonetic": "ˈkɪndərɡɑːrtn",
+          "meaning": "Lớp mẫu giáo",
+          "sentence": "Kindergarten is where kids learning to behave in class.",
+          "translate": "Mẫu giáo là nơi mà trẻ con học cách ứng xử trong lớp."
+        },
+        {
+          "id": 8,
+          "text": "Primary",
+          "phonetic": "ˈpraɪmeri",
+          "meaning": "Tiểu học",
+          "sentence": "In primary school, students learning basic maths.",
+          "translate": "Ở trường tiểu học, học sinh học cách làm toán đơn giản."
+        },
+        {
+          "id": 9,
+          "text": "Secondary",
+          "phonetic": "ˈsekənderi",
+          "meaning": "THCS",
+          "sentence": "I met my wife when i was in secondary school",
+          "translate": "Tôi gặp đc mảnh ghép của cuộc đời mình khi vẫn là cậu nhóc cấp 2"
+        },
+        {
+          "id": 10,
+          "text": "Mathematics",
+          "phonetic": "ˌmæθəˈmætɪks",
+          "meaning": "Toán học",
+          "sentence": "Mathematics was my best subject in school.",
+          "translate": "Toán từng là môn tôi giỏi nhất"
+        },
+        {
+          "id": 11,
+          "text": "Engineering",
+          "phonetic": "ˌendʒɪˈnɪrɪŋ",
+          "meaning": "Ngành kĩ sư",
+          "sentence": "People in engineering typically have to be good in maths",
+          "translate": "Mấy ông kĩ sư thường giỏi toán"
+        },
+        {
+          "id": 12,
+          "text": "Subject",
+          "phonetic": "ˈsʌbdʒekt",
+          "meaning": "Môn học",
+          "sentence": "What is your favourite subject at school?",
+          "translate": "Môn học mà m yêu thích ở trường là what???"
+        },
+        {
+          "id": 13,
+          "text": "Science",
+          "phonetic": "ˈsaɪəns",
+          "meaning": "Khoa học",
+          "sentence": "Science is very useful in daily life.",
+          "translate": "Khoa học rất hữu ích trong cuộc sống hàng ngày."
+        },
+        {
+          "id": 14,
+          "text": "Popular",
+          "phonetic": "ˈpɑːpjələr",
+          "meaning": "Quan trọng - mà méo hiểu sao nó gọi là \"Thịnh hành\"",
+          "sentence": "Football is a very popular sport in VN",
+          "translate": "Ở Vn thì bóng đá rất thịnh hành!"
+        },
+        {
+          "id": 15,
+          "text": "Absent",
+          "phonetic": "ˈæbsənt",
+          "meaning": "Vắng mặt",
+          "sentence": "If u are late, the teacher will mark you as absent!",
+          "translate": "M đến muộn là m nghi học thế thôi!"
+        },
+        {
+          "id": 16,
+          "text": "Art",
+          "phonetic": "ɑːrt",
+          "meaning": "Nghệ thuật",
+          "sentence": "Painting is my favourite type of art",
+          "translate": "Vẽ là môn nghệ thuật của t."
+        },
+        {
+          "id": 17,
+          "text": "Attend",
+          "phonetic": "əˈtend",
+          "meaning": "Tham dự",
+          "sentence": "She only chooses to attend the classes that she likes",
+          "translate": "Cô ấy chỉ học những lớp mà cô ý thích."
+        },
+        {
+          "id": 18,
+          "text": "Term",
+          "phonetic": "tɜːrm",
+          "meaning": "Kì học",
+          "sentence": "I will spend a term studying abroad!",
+          "translate": "T sẽ dành 1 kì học để đi du học!"
+        },
+        {
+          "id": 19,
+          "text": "Grade",
+          "phonetic": "ɡreɪ",
+          "meaning": "Điểm số",
+          "sentence": "I studied all night to get a good grade on this test",
+          "translate": "T học tất cả các đêm để có điểm số này đó con trai!"
+        },
+        {
+          "id": 20,
+          "text": "Succeed",
+          "phonetic": "səkˈsiːd",
+          "meaning": "Thành công - V",
+          "sentence": "You need to work hard if u wish to succeed in life",
+          "translate": "M cần làm việc chăm chỉ hơn nếu m muốn thành công trong cuộc sống!"
+        },
+        {
+          "id": 21,
+          "text": "Continue",
+          "phonetic": "kənˈtɪnjuː",
+          "meaning": "Tiếp tục",
+          "sentence": "Click OK if you want to continue",
+          "translate": "*Lại còn phải dịch nữa*"
+        },
+        {
+          "id": 22,
+          "text": "Announce",
+          "phonetic": "əˈnaʊns",
+          "meaning": "Thông báo",
+          "sentence": "They are going to announce their wedding at the party",
+          "translate": "Họ sẽ thông báo về đám cưới của họ trong bữa tiệc!"
+        },
+        {
+          "id": 23,
+          "text": "Nervous",
+          "phonetic": "ˈnɜːrvəs",
+          "meaning": "Lo lắng",
+          "sentence": "I always feel nervours before a test",
+          "translate": "Luôn buồn ỉa trc khi làm bài kiểm tra"
+        },
+        {
+          "id": 24,
+          "text": "Revise",
+          "phonetic": "rɪˈvaɪz",
+          "meaning": "Học thuộc",
+          "sentence": "You need to revise thoroughly if u want to pass your test.",
+          "translate": "M cần học thuộc hết nếu m muốn pass"
+        },
+        {
+          "id": 25,
+          "text": "Enroll",
+          "phonetic": "ɪnˈrəʊl",
+          "meaning": "Nhập học",
+          "sentence": "The fee to enroll here is rather high.",
+          "translate": "Học phí cao vcl!"
+        },
+        {
+          "id": 26,
+          "text": "Uniform",
+          "phonetic": "ˈjuːnɪfɔːrm",
+          "meaning": "Đồng phục",
+          "sentence": "Did u wear a uniform while in secondary school?",
+          "translate": "M có mặc đồng phục hồi cấp 2 ko nhỉ?"
+        },
+        {
+          "id": 27,
+          "text": "Memorise",
+          "phonetic": "ˈmeməraɪz",
+          "meaning": "Học thuộc lòng",
+          "sentence": "Using pictures and sounds will help u memorise new words",
+          "translate": "Tranh vẽ và âm thanh giúp học thuộc từ mới"
+        },
+        {
+          "id": 28,
+          "text": "Curriculum",
+          "phonetic": "kəˈrɪkjələm",
+          "meaning": "Chương trình giảng dạy",
+          "sentence": "The curriculum is designed to teach students life skills",
+          "translate": "Chương trình sẽ dạy chúng nó kĩ năng sống!"
+        },
+        {
+          "id": 29,
+          "text": "Dropout",
+          "phonetic": "ˈdrɑːpaʊt",
+          "meaning": "Người bỏ học",
+          "sentence": "He's a high school dropout, bu he still became a billionare.",
+          "translate": "Bỏ học và thành công!"
+        },
+        {
+          "id": 30,
+          "text": "Assignment",
+          "phonetic": "əˈsaɪnmənt",
+          "meaning": "Bài tập về nhà",
+          "sentence": "I completed my assignments at the last minute",
+          "translate": "Chép vội chép vội!"
+        }
+      ]
     },
     {
       "id": 3,

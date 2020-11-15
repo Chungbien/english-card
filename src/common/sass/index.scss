@@ -50,7 +50,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background: {
-    image: url(https://pickywallpapers.com/img/2018/2/firewatch-bird-computer-wallpaper-411-418-hd-wallpapers.jpg);
+    image: url(../../../public/images/wall.jpg);
     repeat: no-repeat;
     size: cover;
   }
@@ -64,16 +64,20 @@ body {
   background: {
     color: white;
   }
-  &__img img {
-    @include boderRadius(10px, (bottom-left, bottom-right));
-    width: 100%;
-    height: auto;
+  &__img {
+    max-height: calc(100vh / 3);
+    overflow: hidden;
+    & img {
+      @include boderRadius(10px, (bottom-left, bottom-right));
+      width: 100%;
+      height: auto;
+    }
   }
   &__content,
   &__title,
   &-subtitle,
   &__form {
-    @include spaceSection();
+    @include spaceSection(0.5rem, 1rem);
   }
   &__title {
     border-bottom: 1px solid black;
@@ -112,7 +116,6 @@ body {
     @include dFlex();
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 18.5rem;
     overflow: hidden;
     & .content__item {
       @include hoverReverColor($colorWhite, $colorDefault);
@@ -138,7 +141,7 @@ body {
       padding: 0 1rem;
       margin: 0;
       border: 1px solid $colorBlack;
-      height: 3.5rem;
+      height: 2.5rem;
       font-size: 1rem;
       font-family: "Montserrat", sans-serif;
       width: 100%;
@@ -154,40 +157,17 @@ body {
   }
   &-action {
     @include dFlex();
-    @include spaceSection();
-    justify-content: space-between;
-    &__arrow {
-      font-size: 2rem;
-      padding: 0.5rem;
-      border-radius: 50%;
-      cursor: pointer;
-    }
-    &__previous {
-      @include hoverScale();
-      @include hoverReverColor($colorWhite, #fe6b8b);
-      border: 1px solid #fe6b8b;
-      color: #fe6b8b;
-    }
-    &__next {
-      @include hoverScale();
-      @include hoverReverColor($colorWhite, #ff8e53);
-      border: 1px solid #ff8e53;
-      color: #ff8e53;
-    }
+    @include spaceSection(0.5rem, 1rem);
     &__submit {
       @include hoverReverColor(#fe6b8b, $colorWhite);
       cursor: pointer;
       padding: 0.25rem;
       width: 50%;
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: $colorWhite;
       border-radius: 10px;
       background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
-    }
-    &.card-action__select {
-      @include spaceSection(0rem, 1rem);
-      justify-content: center;
     }
   }
 }
