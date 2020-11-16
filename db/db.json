@@ -495,7 +495,248 @@
     {
       "id": 3,
       "name": "Personal Information",
-      "words": []
+      "words": [
+        {
+          "id": 1,
+          "text": "Live a quite life ",
+          "phonetic": "Live a quite life ",
+          "meaning": "Sống 1 cộc sống bình yên",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 2,
+          "text": "Personal Information",
+          "phonetic": "Personal Information",
+          "meaning": "Thong tin ca nhan",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 3,
+          "text": "Spell someone's name",
+          "phonetic": "Spell someone's name",
+          "meaning": "Đánh vần tên ai đó",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 4,
+          "text": "Grow up",
+          "phonetic": "Grow up",
+          "meaning": "Lớn lên",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 5,
+          "text": "First Name",
+          "phonetic": "First Name",
+          "meaning": "Tên riêng",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 6,
+          "text": "Healthy Interest",
+          "phonetic": "Healthy Interest",
+          "meaning": "Sở thích lành mạnh",
+          "sentence": "**",
+          "translate": "**"
+        },
+        {
+          "id": 7,
+          "text": "Special",
+          "phonetic": "ˈspeʃl",
+          "meaning": "Đặc biệt",
+          "sentence": "Chung cake is special food which is eaten during Tet.",
+          "translate": "Bánh Chưng là món ăn đặc biệt ăn vào ngày Tết!"
+        },
+        {
+          "id": 8,
+          "text": "Call",
+          "phonetic": "kɔːl",
+          "meaning": "Gọi",
+          "sentence": "My mom calls me her \"Little Sun\"",
+          "translate": "Mẹ gọi tôi là mặt trời bé con"
+        },
+        {
+          "id": 9,
+          "text": "Nickname",
+          "phonetic": "ˈnɪkneɪm",
+          "meaning": "biệt danh",
+          "sentence": "He got his nickname from his habit of never taking a nap.",
+          "translate": "Cậu ta có biệt danh đấy vì thói quen ko ngủ trưa!"
+        },
+        {
+          "id": 10,
+          "text": "Meaning",
+          "phonetic": "ˈmiːnɪŋ",
+          "meaning": "Ý nghĩa",
+          "sentence": "Does your name have any meaning?",
+          "translate": "Tên của m có ý nghĩa gì?"
+        },
+        {
+          "id": 11,
+          "text": "Know",
+          "phonetic": "nəʊ",
+          "meaning": "Biết",
+          "sentence": "Do u know the answers to the test?",
+          "translate": "M có câu trả lời ko?"
+        },
+        {
+          "id": 12,
+          "text": "Surname",
+          "phonetic": "ˈsɜːrneɪm",
+          "meaning": "Họ",
+          "sentence": "\"Bien\" is special surname!",
+          "translate": "Biện vô địch!"
+        },
+        {
+          "id": 13,
+          "text": "home town",
+          "phonetic": "ˈhəʊmtaʊn",
+          "meaning": "Quê nhà",
+          "sentence": "He cried when he visited hist hometown again after many years.",
+          "translate": "Anh ấy đã khóc khi trở về quê nhà sau nhiều năm tha hương cầu thực."
+        },
+        {
+          "id": 14,
+          "text": "Tell",
+          "phonetic": "tel",
+          "meaning": "Kể ",
+          "sentence": "Can you tell me your name, plz?",
+          "translate": "Kể tôi nghe về tên của c đi?"
+        },
+        {
+          "id": 15,
+          "text": "Favourite",
+          "phonetic": "ˈfeɪvərɪt",
+          "meaning": "yêu thích - adj",
+          "sentence": "My favourite Vietnamese food is \"Bun dau mam tom\"",
+          "translate": "Ngon vcl!"
+        },
+        {
+          "id": 16,
+          "text": "Spell",
+          "phonetic": "spel",
+          "meaning": "Đánh vần!",
+          "sentence": "My computer corrects me when i dont spell something right.",
+          "translate": "Máy tính giúp tôi khi tôi đánh vần sai!"
+        },
+        {
+          "id": 17,
+          "text": "Live",
+          "phonetic": "lɪv",
+          "meaning": "Sống",
+          "sentence": "What is it like to live in the UK?",
+          "translate": "Sống ở anh thì như thế nào nhỉ?"
+        },
+        {
+          "id": 18,
+          "text": "Distance",
+          "phonetic": "ˈdɪstəns",
+          "meaning": "Khoảng cách ",
+          "sentence": "I will love u no matters the distance",
+          "translate": "Anh yêu em dù có là yêu xa!"
+        },
+        {
+          "id": 19,
+          "text": "Crowed",
+          "phonetic": "krəʊ",
+          "meaning": "Đông đúc",
+          "sentence": "HN streets is rush hour are usually very crowed.",
+          "translate": "Phố Hà nội vào giờ cao điểm thường đông vc"
+        },
+        {
+          "id": 20,
+          "text": "Peaceful",
+          "phonetic": "ˈpiːsfl",
+          "meaning": "Bình yên",
+          "sentence": "Dalat is a very peaceful city.",
+          "translate": "Đà Lạt là nơi bình yên."
+        },
+        {
+          "id": 21,
+          "text": "Beautiful",
+          "phonetic": "ˈbjuːtɪfl",
+          "meaning": "Đẹp",
+          "sentence": "The landscape in Ha Giang is very beautiful.",
+          "translate": "Khung cảnh ở Hà Giang đẹp như chính em vậy!"
+        },
+        {
+          "id": 22,
+          "text": "Center - centre",
+          "phonetic": "ˈsentər",
+          "meaning": "Trung tâm - thường nói về địa lí",
+          "sentence": "My doughnut has a hole in its centre.",
+          "translate": "Bánh rán của tớ có 1 lỗ tròn ở trung tâm."
+        },
+        {
+          "id": 23,
+          "text": "North",
+          "phonetic": "nɔːrθ",
+          "meaning": "Phương bắc",
+          "sentence": "In the north of VN you should visit Ha Long bay and Sapa.",
+          "translate": "Ở phía bắc VN thì bạn nên đi thăm Hạ Long và Sapa"
+        },
+        {
+          "id": 24,
+          "text": "Address",
+          "phonetic": "ˈædres",
+          "meaning": "Địa chỉ",
+          "sentence": "To sign up for the delivery service, plz fill in your address.",
+          "translate": "Để đăng kí dịch vụ giao hàng, hãy điền địa chỉ! -> Rõ ràng"
+        },
+        {
+          "id": 25,
+          "text": "Town",
+          "phonetic": "taʊn",
+          "meaning": "Thị Trấn",
+          "sentence": "I dont know anybody in town.",
+          "translate": "Em làm gì biết ai ở thị trấn đâu!"
+        },
+        {
+          "id": 26,
+          "text": "Describe",
+          "phonetic": "dɪˈskraɪb",
+          "meaning": "Mô tả",
+          "sentence": "Can you describe your dream job for me?",
+          "translate": "Hãy mô tả công việc của bạn!"
+        },
+        {
+          "id": 27,
+          "text": "Common",
+          "phonetic": "ˈkɑːmən",
+          "meaning": "Chung, phổ biến",
+          "sentence": "Football is the most common sport in VN",
+          "translate": "Bóng đã khá phổ biến ở VN"
+        },
+        {
+          "id": 28,
+          "text": "South",
+          "phonetic": "saʊθ",
+          "meaning": "Phía Nam",
+          "sentence": "South Africa",
+          "translate": "Nam Phi"
+        },
+        {
+          "id": 29,
+          "text": "Contact",
+          "phonetic": "ˈkɑːntækt",
+          "meaning": "Liên lạc  - N",
+          "sentence": "I keep in contact with my family via FB",
+          "translate": "T vẫn giữ liên lạc với gia đình qua FB"
+        },
+        {
+          "id": 30,
+          "text": "Sign",
+          "phonetic": "saɪn",
+          "meaning": "Kí",
+          "sentence": "Plz sign here to confirm I have delivered your item to you.",
+          "translate": "Kí và xác nhận rằng tôi đã giao món hàng cho bạn."
+        }
+      ]
     },
     {
       "id": 4,
