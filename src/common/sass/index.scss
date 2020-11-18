@@ -96,13 +96,13 @@ body {
   }
   &-subtitle {
     @include dFlex();
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     &__item {
       display: flex;
       flex-wrap: nowrap;
       width: 40%;
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
     &__item .item {
       &__icon {
