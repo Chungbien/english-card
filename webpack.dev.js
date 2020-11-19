@@ -54,14 +54,17 @@ module.exports = merge(common, {
       ],
       mobile: true,
       lang: "en-US",
-      bodyHtmlSnippet:
-        '<div id="root"></div> <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>',
+      bodyHtmlSnippet: '<div id="root"></div>',
       links: [
         "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,200&display=swap",
       ],
       scripts: [
         {
-          src: "js/index.js",
+          src: "/js/index.js",
+          type: "text/javascript",
+        },
+        {
+          src: "https://unpkg.com/ionicons@5.2.3/dist/ionicons.js",
           type: "text/javascript",
         },
       ],

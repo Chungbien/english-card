@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
 import "antd/dist/antd.css";
 import { Input, Button, Row, Col, Select } from "antd";
 import { DownloadOutlined } from "@ant-design/icons";
