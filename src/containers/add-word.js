@@ -35,6 +35,7 @@ export default function FormAddWord() {
   const [units, setUnits] = useState([]);
   const [unitSelectId, setUnitSelectId] = useState(0);
   const [loading, setLoading] = useState(false);
+  console.log(chungbien);
   const handleChange = (e) => {
     let newWord = { ...word };
     newWord = Object.assign(newWord, { [e.target.id]: e.target.value });
@@ -65,10 +66,9 @@ export default function FormAddWord() {
       ToastsStore.error("I dont have Unit 0! Are u ok?");
       return;
     }
-    Object.values(word).map((value) => {
+    Object.values(word).forEach((value) => {
       if (!value) {
         isComplete = false;
-        return;
       }
     });
     if (unitSelect.words.length === 30) {

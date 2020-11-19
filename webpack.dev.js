@@ -13,11 +13,12 @@ module.exports = merge(common, {
   //  nó sẽ hiển thị lỗi ở đâu (vì khi lỗi nó sẽ hiển thị ở file đã build trong folder dist
   // mà khi build là cú pháp js5 cái ta cần là chính xác lỗi chỗ nào,
   // đó là lý do bạn nên để 'inline-source-map'
-  devtool: "inline-source-map",
+  devtool: "cheap-source-map",
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     hot: true,
     historyApiFallback: true,
+    port: 3000
   },
   module: {
     // các file scss được loader bởi style-loader, css-loader, sass-loader
