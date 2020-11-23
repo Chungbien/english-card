@@ -8,38 +8,35 @@ import axios from "axios";
 import { ToastsContainer, ToastsStore } from "react-toasts";
 
 function App() {
-  const url = "http://localhost:1325";
+  const urlRoot = "http://localhost:1325";
   const { unitId } = useParams();
   const [unitExam, setUnitExam] = useState(null);
   const [listWord, setListWord] = useState([]);
   const [randomWord, setRandomWord] = useState(null);
   const [answerTxt, setAnswerTxt] = useState("");
-  // TODO:
-  // B1: Get all Word of unit by unitId
-  // B2: Mout flag for all word
-  // B3: Get random word
-  // B4: Check correct word ==> set flag = true
-  // B5: Get random word
 
   useEffect(() => {
-    if (unitId) {
-      axios
-        .get(`${url}/units/${unitId}`)
-        .then(function (response) {
-          setUnitExam(response.data);
-          const listWithFlag = [];
+    const url = unitId ? `${urlRoot}/units/${unitId}` : `${urlRoot}/units/`;
+    axios
+      .get(url)
+      .then(function (response) {
+        setUnitExam(response.data);
+        const listWithFlag = [];
+        if (unitId) {
           response.data.words.map((word) => {
             listWithFlag.push({
               ...word,
               correctFlag: false,
             });
           });
-          setListWord(listWithFlag);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
-    }
+        } else {
+          response.data.map((u) => listWithFlag.push(...u.words));
+        }
+        setListWord(listWithFlag.flat());
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   }, []);
 
   useEffect(() => {
@@ -50,7 +47,7 @@ function App() {
 
   const handleGetRandomWord = () => {
     while (true) {
-      const randomIndex = Math.floor(Math.random() * 30);
+      const randomIndex = Math.floor(Math.random() * listWord.length);
       if (!listWord[randomIndex].correctFlag) {
         setRandomWord(listWord[randomIndex]);
         break;

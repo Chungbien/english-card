@@ -741,22 +741,986 @@
     {
       "id": 4,
       "name": "Job & Application 1",
-      "words": []
+      "words": [
+        {
+          "id": 1,
+          "text": "Dead-end job",
+          "phonetic": "khong co",
+          "meaning": "Công việc không có khả năng thăng tiến",
+          "sentence": "*khong co ",
+          "translate": "*"
+        },
+        {
+          "id": 2,
+          "text": "work hours long ",
+          "phonetic": "khong co ",
+          "meaning": "Làm việc ca dài",
+          "sentence": "*không có",
+          "translate": "*"
+        },
+        {
+          "id": 3,
+          "text": "well-paid job",
+          "phonetic": "khong có",
+          "meaning": "Công việc có lương hậu hĩnh",
+          "sentence": "*Không có",
+          "translate": "*"
+        },
+        {
+          "id": 4,
+          "text": "Show up for work",
+          "phonetic": "Không có",
+          "meaning": "Có mặt để làm việc",
+          "sentence": "*không có",
+          "translate": "*"
+        },
+        {
+          "id": 5,
+          "text": "be responsible for ",
+          "phonetic": "be responsible for ",
+          "meaning": "Chịu trách nhiệm cho việc gì ",
+          "sentence": "*Không có",
+          "translate": "*"
+        },
+        {
+          "id": 6,
+          "text": "Work to tight deadlines",
+          "phonetic": "Work to tight deadlines",
+          "meaning": "Làm việc đến hạn chót",
+          "sentence": "*Khong co",
+          "translate": "*"
+        },
+        {
+          "id": 7,
+          "text": "Open",
+          "phonetic": "ˈəʊpən",
+          "meaning": "Mở - V",
+          "sentence": "A new cafe is about to open next the school",
+          "translate": "Quán cafe mới được mở ở gần trường"
+        },
+        {
+          "id": 8,
+          "text": "Owner",
+          "phonetic": "ˈəʊnər",
+          "meaning": "Người chủ - N",
+          "sentence": "I''m the owner of an Italian restaurant in Cau Giay",
+          "translate": "Tôi làm chủ 1 nhà hàng ở CG"
+        },
+        {
+          "id": 9,
+          "text": "Cook",
+          "phonetic": "Cook",
+          "meaning": "Người đầu bếp",
+          "sentence": "I feel like the cook is my own house",
+          "translate": "T cảm giác giống như 1 đầu bếp của nhà mình"
+        },
+        {
+          "id": 10,
+          "text": "Acceptable",
+          "phonetic": "əkˈseptəbl",
+          "meaning": "Có thể chấp nhận được - Adj",
+          "sentence": "Your disrespectful attude is not acceptable.",
+          "translate": "Thái độ thiếu tôn trọng của bạn là ko thể chấp nhận đc."
+        },
+        {
+          "id": 11,
+          "text": "Lawyer",
+          "phonetic": "ˈlɔɪər",
+          "meaning": "Luât sư - N",
+          "sentence": "The lawyer proved the innocence of his client",
+          "translate": "Luật sư đã chứng minh sự vô tội của thân chủ"
+        },
+        {
+          "id": 12,
+          "text": "Engineer",
+          "phonetic": "ˌendʒɪˈnɪr",
+          "meaning": "Kĩ sư",
+          "sentence": "GE is a famous civil engineer",
+          "translate": "GE là 1 nhà kĩ sư xây dựn nổi tiếng."
+        },
+        {
+          "id": 13,
+          "text": "Manager",
+          "phonetic": "ˈmænɪdʒər",
+          "meaning": "Nhà quản lí",
+          "sentence": "I dont like the manager of that Pan Hotpot restaurant.",
+          "translate": "Tôi không phải quản lí của quán lẩu Phan kia đâu"
+        },
+        {
+          "id": 14,
+          "text": "Form",
+          "phonetic": "fɔːrm",
+          "meaning": "Đơng",
+          "sentence": "Applying for scholarship requires filling out many forms",
+          "translate": "Việc xin học bổng yêu cầu điền vào rất nhiều đơn."
+        },
+        {
+          "id": 15,
+          "text": "Assistant",
+          "phonetic": "əˈsɪstənt",
+          "meaning": "Trợ lí",
+          "sentence": "T dont speak Enghlist because my assistant translate for me.",
+          "translate": "Tôi ko nói TA đầu vì t có trợ lí rồi"
+        },
+        {
+          "id": 16,
+          "text": "Pilot",
+          "phonetic": "ˈpaɪlət",
+          "meaning": "Phi công ",
+          "sentence": "It must feel great to be a pilot and fly in the air",
+          "translate": "Hẳn là cảm thấy tuyệt lắm khi đc là phi công và bay trên không."
+        },
+        {
+          "id": 17,
+          "text": "Salesperson",
+          "phonetic": "ˈseɪlzpɜːrsn",
+          "meaning": "Người chào hàng",
+          "sentence": "A salesperson typically has to be very good talking.",
+          "translate": "Người chào hàng thì thường sẽ giỏi ăn nói."
+        },
+        {
+          "id": 18,
+          "text": "Housewife",
+          "phonetic": "ˈhaʊswaɪf",
+          "meaning": "Người nội trợ",
+          "sentence": "My friend dreams of being a housewife in a small family",
+          "translate": "Bạn tôi mơ ước ở trở thành 1 bà nội trợ của 1 gia đình nho nhỏ"
+        },
+        {
+          "id": 19,
+          "text": "Receptionist",
+          "phonetic": "rɪˈsepʃənɪst",
+          "meaning": "Lễ tân",
+          "sentence": "Please let the receptionist help you check in",
+          "translate": "Làm ơn để bạn lễ tân giúp bạn check in."
+        },
+        {
+          "id": 20,
+          "text": "Hairdresser",
+          "phonetic": "ˈherdresər",
+          "meaning": "Thợ làm tóc",
+          "sentence": "Do u know a good hairdresser who can curl my hair?",
+          "translate": "Bạn có biết thằng thợ nào tốt để uốn tóc cho tao ko?"
+        },
+        {
+          "id": 21,
+          "text": "Journalist",
+          "phonetic": "ˈdʒɜːrnəlɪst",
+          "meaning": "Nhà báo",
+          "sentence": "My best friend is a journalist.",
+          "translate": "Bạn thân của tớ là 1 nhà báo."
+        },
+        {
+          "id": 22,
+          "text": "Accountant",
+          "phonetic": "əˈkaʊntənt",
+          "meaning": "Kế toán",
+          "sentence": "As an accountant, I work with numbers all day.",
+          "translate": "Như 1 kế toán, t làm việc với những con số."
+        },
+        {
+          "id": 23,
+          "text": "Offer",
+          "phonetic": "ˈɔːfər",
+          "meaning": "Đề nghị - N",
+          "sentence": "I will offer you a deal you can''t refuse.",
+          "translate": "T sẽ đề nghị bạn 1 thỏa thuận mà bạn ko thể từ chối"
+        },
+        {
+          "id": 24,
+          "text": "Employer",
+          "phonetic": "ɪmˈplɔɪər",
+          "meaning": "Nhà tuyển dụng",
+          "sentence": "That company is a well know employer in the job market.",
+          "translate": "Công ti này có 1 nhà tuyển dụng có tiếng."
+        },
+        {
+          "id": 25,
+          "text": "Design",
+          "phonetic": "Design",
+          "meaning": "Thiết kế - V",
+          "sentence": "Could you design a new flat for me?",
+          "translate": "Bạn có thể thiết kế căn hộ cho tớ ko>?"
+        },
+        {
+          "id": 26,
+          "text": "Employee",
+          "phonetic": "ɪmˈplɔɪiː",
+          "meaning": "Nhân viên",
+          "sentence": "A good manager takes care of every employee",
+          "translate": "1 nhà quản lí tốt sẽ quan tâm đc mọi nhân viên."
+        },
+        {
+          "id": 27,
+          "text": "Company",
+          "phonetic": "ˈkʌmpəni",
+          "meaning": "Công ty",
+          "sentence": "The products of that company were made in VietNam",
+          "translate": "Sản phẩm của công ty này được làm ở VN"
+        },
+        {
+          "id": 28,
+          "text": "Punctual",
+          "phonetic": "ˈpʌŋktʃuəl",
+          "meaning": "Đúng giờ - adj",
+          "sentence": "It's very important to be punctual in Korean and JP companies",
+          "translate": "Ở công ty Hàn or Nhật thì đúng giờ rất quan trọng."
+        },
+        {
+          "id": 29,
+          "text": "Challenging",
+          "phonetic": "ˈtʃælɪndʒɪŋ",
+          "meaning": "Mang tính thử thách",
+          "sentence": "I love work that is challenging, so that''s why i''am doctor.",
+          "translate": "T làm việc khó đó là lí do tao làm bác sĩ"
+        },
+        {
+          "id": 30,
+          "text": "Architect",
+          "phonetic": "ˈɑːrkɪtekt",
+          "meaning": "Kiến trúc sư",
+          "sentence": "She wants to become an architect when she grows up, like her dad",
+          "translate": "Cô ấy muốn làm kiến trúc sư khi lớn lên, giống bố cô ây."
+        }
+      ]
     },
     {
       "id": 5,
       "name": "Job & Application 2",
-      "words": []
+      "words": [
+        {
+          "id": 1,
+          "text": "Get a job",
+          "phonetic": "Get a job",
+          "meaning": "Có việc làm",
+          "sentence": "*Không có",
+          "translate": "*"
+        },
+        {
+          "id": 2,
+          "text": "Musical instrument",
+          "phonetic": "Musical instrument",
+          "meaning": "Nhạc cụ",
+          "sentence": "*không có",
+          "translate": "*"
+        },
+        {
+          "id": 3,
+          "text": "Apply for a job",
+          "phonetic": "Apply for a job",
+          "meaning": "Ứng tuyển việc làm",
+          "sentence": "*không có",
+          "translate": "*"
+        },
+        {
+          "id": 4,
+          "text": "Job application",
+          "phonetic": "Job applicaton",
+          "meaning": "Đơn xin việc",
+          "sentence": "*khong co",
+          "translate": "*"
+        },
+        {
+          "id": 5,
+          "text": "Work under pressure",
+          "phonetic": "Work under pressure",
+          "meaning": "Làm việc dưới áp lực",
+          "sentence": "*khong co",
+          "translate": "*"
+        },
+        {
+          "id": 6,
+          "text": "Jobless",
+          "phonetic": "ˈdʒɑːbləs",
+          "meaning": "Thất nghiệp",
+          "sentence": "I have been jobless since the day i graduated",
+          "translate": "T ra trường cái là thất nghiệp luôn"
+        },
+        {
+          "id": 7,
+          "text": "Application",
+          "phonetic": "ˌæplɪˈkeɪʃn",
+          "meaning": "Đơn xin việc",
+          "sentence": "Filling in the application to look for a job is a hard work in itself.",
+          "translate": "Điền vào đơn xin việc khá là vất vả"
+        },
+        {
+          "id": 8,
+          "text": "File",
+          "phonetic": "File",
+          "meaning": "Túi đựng tài liệu",
+          "sentence": "I keep all my important papers in one file",
+          "translate": "T đựng tất cả tài liệu quan trọng ở trong 1 túi."
+        },
+        {
+          "id": 9,
+          "text": "Interview",
+          "phonetic": "ˈɪntərvjuː",
+          "meaning": "Buổi phỏng vấn",
+          "sentence": "Most jobs require at least an interview.",
+          "translate": "Đa số công việc đều yêu cầu phỏng vấn"
+        },
+        {
+          "id": 10,
+          "text": "Career",
+          "phonetic": "kəˈrɪr",
+          "meaning": "Sự nghiệp",
+          "sentence": "CR7 has an impressive career",
+          "translate": "CR7 có 1 sự nghiệp đáng ngưỡng mộ"
+        },
+        {
+          "id": 11,
+          "text": "Bank teller",
+          "phonetic": "bæŋkˈtelər",
+          "meaning": "Giao dịch viên ngân hàng",
+          "sentence": "The bank teller asked to see my ID",
+          "translate": "Giao dịch viên đòi xem ID của tôi"
+        },
+        {
+          "id": 12,
+          "text": "Filmmaker",
+          "phonetic": "ˈfɪlm meɪkər",
+          "meaning": "Nhà làm phim",
+          "sentence": "The talented Filmmaker spent lots of time in NB",
+          "translate": "Nhà làm phim tài năng dành nhiều time ở NB"
+        },
+        {
+          "id": 13,
+          "text": "Musician",
+          "phonetic": "mjuˈzɪʃn",
+          "meaning": "Nhạc sĩ",
+          "sentence": "He is fantastic musician who plays the drums, flut and guitar",
+          "translate": "1 nhạc sĩ tài năng có thể chơi trống, guitar, sáo"
+        },
+        {
+          "id": 14,
+          "text": "Reporter",
+          "phonetic": "rɪˈpɔːrtər",
+          "meaning": "Phóng viên",
+          "sentence": "When i first became a reporter, i was so nervous",
+          "translate": "Lần đầu làm phóng viên, tôi run vcl"
+        },
+        {
+          "id": 15,
+          "text": "Photographer",
+          "phonetic": "fəˈtɑːɡrəfər",
+          "meaning": "Nhiếp ảnh gia",
+          "sentence": "A nature photographer would usually travel a lot",
+          "translate": "Nhiếp ảnh gia tự nhiên thường đi rất nhiều."
+        },
+        {
+          "id": 16,
+          "text": "Document",
+          "phonetic": "ˈdɑːkjumənt",
+          "meaning": "Tài liệu",
+          "sentence": "This document has the answers to the test.",
+          "translate": "Tài liệu này là câu trả lời cho bài kiểm tra"
+        },
+        {
+          "id": 17,
+          "text": "Prepare",
+          "phonetic": "prɪˈper",
+          "meaning": "Chuẩn bị - V",
+          "sentence": "It only takes me about an hour to prepare for any tip.",
+          "translate": "Chỉ mất tầm 1 giờ để chuẩn bị "
+        },
+        {
+          "id": 18,
+          "text": "Arrange",
+          "phonetic": "əˈreɪndʒ",
+          "meaning": "Sắp xếp - V",
+          "sentence": "Can u arrange the papers on your desk?",
+          "translate": "Bạn có thể sắp xếp giấy tờ trên bàn đc ko?"
+        },
+        {
+          "id": 19,
+          "text": "Qualified",
+          "phonetic": "ˈkwɑːlɪfaɪd",
+          "meaning": "Đủ khả năng - Adj",
+          "sentence": "Are you sure he is qualified to be a swimming teacher?",
+          "translate": "Bạn có chắc là anh ý đủ khẳ năng để đi dạy bơi?"
+        },
+        {
+          "id": 20,
+          "text": "Customer",
+          "phonetic": "ˈkʌstəmər",
+          "meaning": "Khách hàng",
+          "sentence": "Remember this: customer are always right",
+          "translate": "Nhớ rằng: Khách hàng luôn đúng."
+        },
+        {
+          "id": 21,
+          "text": "Designer",
+          "phonetic": "dɪˈzaɪnər",
+          "meaning": "Nhà thiết kế",
+          "sentence": "As a modern designer, she uses technology to create art",
+          "translate": "Như 1 nhà thiết kế hiện đại, cô ấy dùng công nghệ để sáng tạo nghệ thuật."
+        },
+        {
+          "id": 22,
+          "text": "Tool",
+          "phonetic": "tuːl",
+          "meaning": "Công cụ",
+          "sentence": "Photoshop is great tool to edit photos",
+          "translate": "PS là công cụ tuyệt vời để edit ảnh"
+        },
+        {
+          "id": 23,
+          "text": "Expert",
+          "phonetic": "ˈekspɜːrt",
+          "meaning": "Chuyên gia",
+          "sentence": "After studying for 3 years, she became an expert in field.",
+          "translate": "Sau 3 năm học thì cô ấy trở thành 1 chuyên gia trong lĩnh vực đó."
+        },
+        {
+          "id": 24,
+          "text": "Nurse",
+          "phonetic": "nɜːrs",
+          "meaning": "Y tá",
+          "sentence": "My son wants to be a nurse when he grows up.",
+          "translate": "Con trai tôi ước mơ làm y tá"
+        },
+        {
+          "id": 25,
+          "text": "Builder",
+          "phonetic": "ˈbɪldər",
+          "meaning": "Thợ xây",
+          "sentence": "The builder worked all day to complete the house.",
+          "translate": "Thợ xây làm việc ko ngày nghỉ để hoàn thành ngôi nhà."
+        },
+        {
+          "id": 26,
+          "text": "Employed",
+          "phonetic": "ɪmˈplɔɪd",
+          "meaning": "Có việc làm - Adj",
+          "sentence": "All i want after graduation is to be employed.",
+          "translate": "Tôi muốn sau khi tốt nghiệp là có việc lun."
+        },
+        {
+          "id": 27,
+          "text": "Freelancer",
+          "phonetic": "ˈfriːlænsər",
+          "meaning": "Công việc tự do",
+          "sentence": "She worked online as a freelancer",
+          "translate": "Cô ấy làm việc online như 1 freelancer"
+        },
+        {
+          "id": 28,
+          "text": "Contract",
+          "phonetic": "ˈkɑːntrækt",
+          "meaning": "Hợp đồng - N ",
+          "sentence": "Please read the contract, and let me know if it is ok",
+          "translate": "Làm ơn đọc hộ cái hợp đồng và cho t biết là nó OK."
+        },
+        {
+          "id": 29,
+          "text": "Secretary",
+          "phonetic": "ˈsekrəteri",
+          "meaning": "Thư kí ",
+          "sentence": "The secretary opened the door and asked me to sign some papers",
+          "translate": "Thư kí đã mở cửa phòng và yêu cầu tôi kí 1 số tờ giấy."
+        },
+        {
+          "id": 30,
+          "text": "Pass a job interview",
+          "phonetic": "Pass a job interview",
+          "meaning": "Vượt qua buổi phỏng vấn",
+          "sentence": "*không có",
+          "translate": "*"
+        }
+      ]
     },
     {
       "id": 6,
       "name": "Money & Spending",
-      "words": []
+      "words": [
+        {
+          "id": 1,
+          "text": "Run short of money",
+          "phonetic": "Run short of money",
+          "meaning": "Thiếu tiền ",
+          "sentence": "*Khong có",
+          "translate": "*"
+        },
+        {
+          "id": 2,
+          "text": "Pay rent and bills",
+          "phonetic": "Pay rent and bills",
+          "meaning": "Trả tiền thuê nhà và hóa đơn",
+          "sentence": "*không có",
+          "translate": "*"
+        },
+        {
+          "id": 3,
+          "text": "Be paid on time",
+          "phonetic": "Be paid on time",
+          "meaning": "Trả đúng hẹn",
+          "sentence": "*không có",
+          "translate": "*"
+        },
+        {
+          "id": 4,
+          "text": "Cost of living",
+          "phonetic": "Cost of living",
+          "meaning": "Chi phí sinh hoạt",
+          "sentence": "*khong co*",
+          "translate": "*"
+        },
+        {
+          "id": 5,
+          "text": "Run out of money",
+          "phonetic": "Run out of money",
+          "meaning": "Hết tiền",
+          "sentence": "*khong co",
+          "translate": "*"
+        },
+        {
+          "id": 6,
+          "text": "In big trouble",
+          "phonetic": "In big trouble",
+          "meaning": "Gặp vấn đề to rồi",
+          "sentence": "*Không có",
+          "translate": "*"
+        },
+        {
+          "id": 7,
+          "text": "Rich",
+          "phonetic": "rɪtʃ",
+          "meaning": "Giàu có",
+          "sentence": "Many people want to be rich, but dont want to work",
+          "translate": "Không muốn làm mà muốn ăn"
+        },
+        {
+          "id": 8,
+          "text": "Cheap",
+          "phonetic": "tʃiːp",
+          "meaning": "Rẻ",
+          "sentence": "My new flat in suburb is quite cheap",
+          "translate": "Căn hộ mới rẻ thật sự"
+        },
+        {
+          "id": 9,
+          "text": "Price",
+          "phonetic": "praɪs",
+          "meaning": "Giá",
+          "sentence": "What''s the price of the phone?",
+          "translate": "Xin cái giá"
+        },
+        {
+          "id": 10,
+          "text": "Rent",
+          "phonetic": "rent",
+          "meaning": "Tiền thuê nhà",
+          "sentence": "I pay rent for my flat on the third day of each month",
+          "translate": "T trả tiền thuê nhà cho căn hộ vào mỗi mùng 3 mỗi tháng"
+        },
+        {
+          "id": 11,
+          "text": "Expensive",
+          "phonetic": "ɪkˈspensɪv",
+          "meaning": "Đắt đỏ",
+          "sentence": "Cars are usually quite expensive in VN",
+          "translate": "Xe đắt vcl"
+        },
+        {
+          "id": 12,
+          "text": "Manage",
+          "phonetic": "ˈmænɪdʒ",
+          "meaning": "Quản lí - V",
+          "sentence": "As a student, i need to learn how to manage my time",
+          "translate": "Khi còn là SV, t cần học học cách quản lí thời gian"
+        },
+        {
+          "id": 13,
+          "text": "Spend",
+          "phonetic": "spend",
+          "meaning": "Tiêu tiền - Để dành",
+          "sentence": "I always track how much i spend day to day",
+          "translate": "T luôn theo dõi mình tiêu bao nhiều tiền ngày qua ngày"
+        },
+        {
+          "id": 14,
+          "text": "Save",
+          "phonetic": "seɪv",
+          "meaning": "Tiết kiệm",
+          "sentence": "I want to save money to study abroad",
+          "translate": "T muốn để dành tiền để đi học nước ngoài"
+        },
+        {
+          "id": 15,
+          "text": "Wasteful",
+          "phonetic": "ˈweɪstfl",
+          "meaning": "Phí phạm - adj",
+          "sentence": "How wasteful! The ordered five dishes and only ate one",
+          "translate": "Phí vcl. order về 5 mà m ăn hết 1"
+        },
+        {
+          "id": 16,
+          "text": "Borrow",
+          "phonetic": "ˈbɔːrəʊ",
+          "meaning": "Cho mượn",
+          "sentence": "Mum, can i borrow you some money?",
+          "translate": "Mẹ! Con mượn chút tiền đi!"
+        },
+        {
+          "id": 17,
+          "text": "Fee",
+          "phonetic": "fiː",
+          "meaning": "Lệ phí",
+          "sentence": "The monthly fee of the gym is quite reasonable",
+          "translate": "Tiền cho việc tập gym là tiền hợp lí."
+        },
+        {
+          "id": 18,
+          "text": "Own",
+          "phonetic": "əʊn",
+          "meaning": "Nợ",
+          "sentence": "I still own them the money i borrowed for my studies",
+          "translate": "T vẫn đang nợ tiền để đi học"
+        },
+        {
+          "id": 19,
+          "text": "Broke",
+          "phonetic": "brəʊk",
+          "meaning": "Cháy túi",
+          "sentence": "Even through I was broke, my friends still invited me for coffee",
+          "translate": "Mỗi lần t cháy túi thì bạn t mời."
+        },
+        {
+          "id": 20,
+          "text": "Cost",
+          "phonetic": "kɔːst",
+          "meaning": "Chi phí",
+          "sentence": "Would her salary be enough to cover the cost of living?",
+          "translate": "Liệu lương có đủ để sống ko?"
+        },
+        {
+          "id": 21,
+          "text": "Lend",
+          "phonetic": "lend",
+          "meaning": "Cho vay",
+          "sentence": "I will lend you some money, but you have to pay it back",
+          "translate": "T sẽ cho m mượn nhưng m phải trả"
+        },
+        {
+          "id": 22,
+          "text": "Note",
+          "phonetic": "nəʊt",
+          "meaning": "Tờ tiền",
+          "sentence": "Notes in VN are made of paper of polyme",
+          "translate": "Tiền polyme VN"
+        },
+        {
+          "id": 23,
+          "text": "Expense",
+          "phonetic": "ɪkˈspens",
+          "meaning": "Khoản chi tiêu - N",
+          "sentence": "Food is my biggest expense each month",
+          "translate": "Tiền ăn tốn vcl"
+        },
+        {
+          "id": 24,
+          "text": "Due",
+          "phonetic": "duː",
+          "meaning": "Đến hạn trả tiền - Adj",
+          "sentence": "The assignment is due in two weeks",
+          "translate": "Bài tập này hạn alf 2 tuần"
+        },
+        {
+          "id": 25,
+          "text": "Bill",
+          "phonetic": "bɪl",
+          "meaning": "Hóa đơn",
+          "sentence": "She looked sadly at the unpaid bills on the table.",
+          "translate": "Co ấy nhìn đốn hóa đơn trên bàn."
+        },
+        {
+          "id": 26,
+          "text": "Reasonable",
+          "phonetic": "ˈriːznəbl",
+          "meaning": "Hợp lí, phải chăng",
+          "sentence": "I love VN. The price is reasonable and the food is amazing",
+          "translate": "Tôi yêu VN, giá cả hợp lí vc"
+        },
+        {
+          "id": 27,
+          "text": "Luxury",
+          "phonetic": "ˈlʌkʃəri",
+          "meaning": "Điều xa hoa",
+          "sentence": "Having food to eat and a bed to sleep in are both luxuries",
+          "translate": "Có thức ăn và giường để ngủ là điều xa hoa"
+        },
+        {
+          "id": 28,
+          "text": "Generous",
+          "phonetic": "ˈdʒenərəs",
+          "meaning": "Hòa phóng",
+          "sentence": "My granddad gave me a car for my birthdat. He''s so generous",
+          "translate": "Ông nội t cho tớ cái car vào ngày sinh nhật. Thật hào phóng"
+        },
+        {
+          "id": 29,
+          "text": "Raise",
+          "phonetic": "reɪz",
+          "meaning": "Tăng lên",
+          "sentence": "You should rasie the asking price for your painting",
+          "translate": "Bạn nên tăng giá cho bức tranh của mình."
+        },
+        {
+          "id": 30,
+          "text": "Decrease",
+          "phonetic": "dɪˈkriːs",
+          "meaning": "Giảm",
+          "sentence": "I think you should descrease your expectations of Paris",
+          "translate": "T nghĩ bạn nên giảm kì vọng về Paris đi."
+        }
+      ]
     },
     {
       "id": 7,
       "name": "In The City 1",
-      "words": []
+      "words": [
+        {
+          "id": 1,
+          "text": "Get used to",
+          "phonetic": "Get used to",
+          "meaning": "Quen dần với việc gì đó ",
+          "sentence": "*không có",
+          "translate": "*"
+        },
+        {
+          "id": 2,
+          "text": "Quality of life",
+          "phonetic": "Quality of life ",
+          "meaning": "Chất lượng cuộc sống",
+          "sentence": "*ko co",
+          "translate": "*"
+        },
+        {
+          "id": 3,
+          "text": "Entertainment option",
+          "phonetic": "Entertainment option",
+          "meaning": "Các lựa chọn giải trí",
+          "sentence": "*ko co",
+          "translate": "*"
+        },
+        {
+          "id": 4,
+          "text": "Pace of life",
+          "phonetic": "Pace of life",
+          "meaning": "Nhịp sống",
+          "sentence": "*không có",
+          "translate": "*"
+        },
+        {
+          "id": 5,
+          "text": "Put up with (something)",
+          "phonetic": "Put up with something",
+          "meaning": "Chịu đựng cái gì đó ",
+          "sentence": "*khong co",
+          "translate": "*"
+        },
+        {
+          "id": 6,
+          "text": "Metro system",
+          "phonetic": "Metro system",
+          "meaning": "Hệ thống tàu điện ngầm",
+          "sentence": "*không có",
+          "translate": "*"
+        },
+        {
+          "id": 7,
+          "text": "Capital",
+          "phonetic": "ˈkæpɪtl",
+          "meaning": "Thủ đo",
+          "sentence": "HN is capital of VN",
+          "translate": "HN là thủ đô của VN"
+        },
+        {
+          "id": 8,
+          "text": "Exciting",
+          "phonetic": "ɪkˈsaɪtɪŋ",
+          "meaning": "gây hào hứng - adj",
+          "sentence": "The action film was exciting from start to finish",
+          "translate": "Phim hành động gây hứng thú từ đầu đến cuối"
+        },
+        {
+          "id": 9,
+          "text": "Skyscraper",
+          "phonetic": "ˈskaɪskreɪpər",
+          "meaning": "Nhà chọc trời",
+          "sentence": "NY looks like a jungle with all those skyscraper",
+          "translate": "NY nhìn như 1 khu rừng với cả đống nhà chọc trời"
+        },
+        {
+          "id": 10,
+          "text": "Atmosphere",
+          "phonetic": "ˈætməsfɪr",
+          "meaning": "Bầu không khí",
+          "sentence": "The atmosphere in the room before the test was very tense",
+          "translate": "Không khí trong phòng trc khi thi rất căng thẳng"
+        },
+        {
+          "id": 11,
+          "text": "Nightlife",
+          "phonetic": "ˈnaɪtlaɪf",
+          "meaning": "Cuộc sống về đêm",
+          "sentence": "The nightlife in big cities is very interesting",
+          "translate": "Cuộc sống về đêm ở những thành phố lớn rất thú vị"
+        },
+        {
+          "id": 12,
+          "text": "Lively",
+          "phonetic": "ˈlaɪvli",
+          "meaning": "Sống động",
+          "sentence": "The artist drew a very lively portrait of his mom",
+          "translate": "Ng nghệ sĩ vẽ mẹ anh ấy rất sống động."
+        },
+        {
+          "id": 13,
+          "text": "Modern",
+          "phonetic": "ˈmɑːdərn",
+          "meaning": "Hiện đại",
+          "sentence": "I prefer living in a modern city to a traditional town.",
+          "translate": "Tôi thích sống trong 1 thành phố hiện đại hơn là 1 thị trấn truyền thống"
+        },
+        {
+          "id": 14,
+          "text": "Various",
+          "phonetic": "ˈveriəs",
+          "meaning": "Đa dạng",
+          "sentence": "Dessert in Vn often includes various kind of fruit",
+          "translate": "Móng tráng miệng ở VN thường gồm đa dạng các loại quả."
+        },
+        {
+          "id": 15,
+          "text": "Service",
+          "phonetic": "ˈsɜːrvɪs",
+          "meaning": "Dịch vụ - N",
+          "sentence": "There are many public services in cities, such as schools and hospitals",
+          "translate": "Có nhiều dịch vụ công cộng trong thành phố, đơn cử như trường học, bệnh viện"
+        },
+        {
+          "id": 16,
+          "text": "System",
+          "phonetic": "ˈsɪstəm",
+          "meaning": "Hệ thống",
+          "sentence": "The operating system on his computer is ourdated",
+          "translate": "Hệ thống hoạt động của máy tính của anh ấy quá hạn"
+        },
+        {
+          "id": 17,
+          "text": "Pavement - sidewalk",
+          "phonetic": "ˈpeɪvmənt --- ˈsaɪdwɔːk",
+          "meaning": "Vỉa hè",
+          "sentence": "People shouldn''t drive motorbikes on the pavement",
+          "translate": "Mọi người ko nên đi xe lên vỉa hè"
+        },
+        {
+          "id": 18,
+          "text": "Alley",
+          "phonetic": "æli",
+          "meaning": "ngõ",
+          "sentence": "You should look both ways when you leave an alley",
+          "translate": "Bạn nên nhìn cả 2 hướng khi ra khỏi ngõ"
+        },
+        {
+          "id": 19,
+          "text": "Neighborhood ",
+          "phonetic": "ˈneɪbərhʊd",
+          "meaning": "Khu dân cư",
+          "sentence": "I live in a quiet neighbourhood, far from the city centre",
+          "translate": "T sống ở 1 khu vực khá yên tĩnh, xa thành phố"
+        },
+        {
+          "id": 20,
+          "text": "Bustling",
+          "phonetic": "ˈbʌslɪŋ",
+          "meaning": "Náo nhiệt",
+          "sentence": "Hoan Kiem and District 1 are bustling areas in HN and HCM",
+          "translate": "HK và quận 1 là 2 nơi náo nhiệt"
+        },
+        {
+          "id": 21,
+          "text": "District",
+          "phonetic": "ˈdɪstrɪkt",
+          "meaning": "Quận",
+          "sentence": "Many backpackers hang out in District 1 of SG",
+          "translate": "Nhiều du khách ba lô đi chơi ở quận 1"
+        },
+        {
+          "id": 22,
+          "text": "Quality",
+          "phonetic": "ˈkwɑːləti",
+          "meaning": "Chất lượng",
+          "sentence": "Samsung phones are usually of exceptionally good quality",
+          "translate": "Điện thoại SS thường chất lượng rất tốt."
+        },
+        {
+          "id": 23,
+          "text": "Central",
+          "phonetic": "ˈsentrəl",
+          "meaning": "Trung tâm",
+          "sentence": "I should rent a flat in the central area of Da Nang",
+          "translate": "Mình nên thuê 1 căn nhà ở trung tâm DN"
+        },
+        {
+          "id": 24,
+          "text": "Nightclub",
+          "phonetic": "ˈnaɪtklʌb",
+          "meaning": "Hộp đêm",
+          "sentence": "My grandparents would not find nightclubs very appealing",
+          "translate": "Ông bà tôi sẽ không tìm mấy hộp đêm thu hút lắm đâu"
+        },
+        {
+          "id": 25,
+          "text": "Tower",
+          "phonetic": "ˈtaʊər",
+          "meaning": "Tòa tháp",
+          "sentence": "There''s restaurant at the top of tower.",
+          "translate": "Có 1 nhà hàng ở trên đỉnh toàn nhà này."
+        },
+        {
+          "id": 26,
+          "text": "Opportunity",
+          "phonetic": "ˌɑːpərˈtuːnəti",
+          "meaning": "Cơ hội",
+          "sentence": "I received a great opportunity to go the NewYork",
+          "translate": "Tôi nhận được 1 cơ hội tốt để đến NY"
+        },
+        {
+          "id": 27,
+          "text": "Convenient",
+          "phonetic": "kənˈviːniənt",
+          "meaning": "Tiện ích",
+          "sentence": "Instant noodles are a convenient form of food.",
+          "translate": "Mì ăn liền là thực phẩm tiện lợi"
+        },
+        {
+          "id": 28,
+          "text": "Highway - Freeway (US)",
+          "phonetic": "ˈhaɪweɪ",
+          "meaning": "Đường cao tốc",
+          "sentence": "I love driving on the highway because i love driving fast",
+          "translate": "T thích lái xe trên cao tốc vì tôi thích tốc độ."
+        },
+        {
+          "id": 29,
+          "text": "Square",
+          "phonetic": "skwer",
+          "meaning": "Hình vuông - Quảng trường",
+          "sentence": "I often meet my friends at the town square.",
+          "translate": "Tôi thường gặp bạn tôi ở quảng trường"
+        },
+        {
+          "id": 30,
+          "text": "Appealing",
+          "phonetic": "əˈpiːlɪŋ",
+          "meaning": "Thu hút - adj",
+          "sentence": "What is your country most appealing feature?",
+          "translate": "Đặc điểm thu hút của đất nước của bạn là gì?"
+        }
+      ]
     },
     {
       "id": 8,
