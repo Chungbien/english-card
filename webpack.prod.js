@@ -9,9 +9,15 @@ module.exports = merge(common, {
     devtool: 'source-map',
     module: {
         rules: [{
-            test: /\.(scss|sass)$/,
+            test: /\.(sa|sc|c)ss$/,
             use: [
-                MiniCssExtractPlugin.loader,
+                "style-loader",
+                {
+                    loader: MiniCssExtractPlugin.loader,
+                    options: {
+                        publicPath: '/'
+                    }
+                },
                 "css-loader",
                 "sass-loader"
             ]
@@ -27,17 +33,31 @@ module.exports = merge(common, {
             filename: "css/index.css"
         }),
         new HtmlWebpackPlugin({
-            title: 'Webpack React Example',
+            title: "Learning Webpack",
             inject: false,
-            template: require('html-webpack-template'),
-            meta: [{
-                name: 'description',
-                content: 'A better default template for html-webpack-plugin.'
-            }],
+            template: require("html-webpack-template"),
+            meta: [
+                {
+                    name: "description",
+                    content: "A better default template for html-webpack-plugin.",
+                },
+            ],
             mobile: true,
-            lang: 'en-US',
+            lang: "en-US",
             bodyHtmlSnippet: '<div id="root"></div>',
-            filename: 'index.html'
-        })
+            links: [
+                "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,200&display=swap",
+            ],
+            scripts: [
+                {
+                    src: "./js/index.js",
+                    type: "text/javascript",
+                },
+                {
+                    src: "https://unpkg.com/ionicons@5.2.3/dist/ionicons.js",
+                    type: "text/javascript",
+                },
+            ],
+        }),
     ]
 });
