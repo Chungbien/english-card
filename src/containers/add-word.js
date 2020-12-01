@@ -33,7 +33,6 @@ export default function FormAddWord() {
   const [units, setUnits] = useState([]);
   const [unitSelectId, setUnitSelectId] = useState(0);
   const [loading, setLoading] = useState(false);
-  console.log(chungbien);
   const handleChange = (e) => {
     let newWord = { ...word };
     newWord = Object.assign(newWord, { [e.target.id]: e.target.value });
